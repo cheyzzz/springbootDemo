@@ -1,0 +1,9 @@
+2021-12-10 15:45:24.717  INFO 7184 --- [main] c.c.s.SpringbootDemoApplicationTests     : Starting SpringbootDemoApplicationTests using Java 1.8.0_131 on DESKTOP-C9T87IF with PID 7184 (started by chey in C:\Users\chey\Desktop\idea_project\springbootDemo)
+2021-12-10 15:45:24.738 DEBUG 7184 --- [main] c.c.s.SpringbootDemoApplicationTests     : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-10 15:45:24.762  INFO 7184 --- [main] c.c.s.SpringbootDemoApplicationTests     : No active profile set, falling back to default profiles: default
+2021-12-10 15:45:29.867  INFO 7184 --- [main] c.c.s.SpringbootDemoApplicationTests     : Started SpringbootDemoApplicationTests in 6.492 seconds (JVM running for 10.252)
+2021-12-10 15:45:30.383 TRACE 7184 --- [main] c.c.s.SpringbootDemoApplicationTests     : trace
+2021-12-10 15:45:30.385 DEBUG 7184 --- [main] c.c.s.SpringbootDemoApplicationTests     : debug
+2021-12-10 15:45:30.385  INFO 7184 --- [main] c.c.s.SpringbootDemoApplicationTests     : info
+2021-12-10 15:45:30.386  WARN 7184 --- [main] c.c.s.SpringbootDemoApplicationTests     : warn
+2021-12-10 15:45:30.386 ERROR 7184 --- [main] c.c.s.SpringbootDemoApplicationTests     : error

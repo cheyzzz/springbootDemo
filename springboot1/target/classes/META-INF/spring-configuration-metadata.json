@@ -1,0 +1,72 @@
+{
+  "groups": [
+    {
+      "name": "cat",
+      "type": "com.chey.demo.bean.Cat",
+      "sourceType": "com.chey.demo.bean.Cat"
+    },
+    {
+      "name": "person",
+      "type": "com.chey.demo.bean.Person",
+      "sourceType": "com.chey.demo.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cat.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.chey.demo.bean.Cat"
+    },
+    {
+      "name": "cat.name",
+      "type": "java.lang.String",
+      "sourceType": "com.chey.demo.bean.Cat"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.chey.demo.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.chey.demo.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.chey.demo.bean.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.chey.demo.bean.Dog",
+      "sourceType": "com.chey.demo.bean.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.chey.demo.bean.Person"
+    },
+    {
+      "name": "person.length",
+      "type": "java.lang.Integer",
+      "sourceType": "com.chey.demo.bean.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.chey.demo.bean.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.chey.demo.bean.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.chey.demo.bean.Person"
+    }
+  ],
+  "hints": []
+}
