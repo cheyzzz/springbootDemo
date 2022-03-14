@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>helloo</h1>
+
+
+<hr/>
+<!--以post的方式请求/user-->
+<form action="/user" method="post">
+    <!--    使用隐藏的_method方法实现delete请求-->
+    <input name="_method" type="hidden" value="DELETE"/>
+    <!--    提交表单-->
+    <input value="DELETE" type="submit">
+</form>
+
+<form action="/user" method="post">
+    <input name="_method" type="hidden" value="PUT"/>
+    <input value="PUT" type="submit">
+</form>
+
+<form action="/input" method="post">
+    <!--    输入框 参数名为name-->
+    <input name="name">
+    <input name="age">
+    <input value="submit" type="submit">
+</form>
+
+<form action="/person" method="post">
+    <!--    输入框 参数名为name-->
+    <input name="name" value="chey">
+    <input name="age" value="11">
+    <input name="pet.name" value="cheyzz">
+    <input name="pet.age" value="1122">
+    <input value="submit" type="submit">
+</form>
+
+<form action="/person" method="post">
+    <!--    输入框 参数名为name-->
+    <input name="name" value="chey">
+    <input name="age" value="11">
+    <input name="pet" value="cheyzz,1122">
+    <input value="submit" type="submit">
+</form>
+
+</body>

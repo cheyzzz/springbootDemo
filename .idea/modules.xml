@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/WebProject/WebProject.iml" filepath="$PROJECT_DIR$/WebProject/WebProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot1/springboot1.iml" filepath="$PROJECT_DIR$/springboot1/springboot1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot2/springboot2.iml" filepath="$PROJECT_DIR$/springboot2/springboot2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootDemo.iml" filepath="$PROJECT_DIR$/springbootDemo.iml" />

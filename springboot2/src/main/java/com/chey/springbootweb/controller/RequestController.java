@@ -13,7 +13,7 @@ import java.util.Map;
 /**
  * @Author chey
  * @Date 2021-12-23 17:08
- * @Describe rest风格   返回字符串为字符串
+ * @Describe RestController   返回字符串为字符串
  */
 @RestController
 public class RequestController {
@@ -37,7 +37,7 @@ public class RequestController {
 //        return "GET";
 //    }
 
-
+    //rest风格传参
     //传参  浏览器输入参数为实参  方法的形参为获得的参数
     @RequestMapping("/age/{age}/name/{name}")
     public Map<String,Object> restRequest(@PathVariable("age") Integer age//路径变量 从输入的请求参数中获得
@@ -104,5 +104,12 @@ public class RequestController {
 
     }
 
+    @GetMapping("/person")
+    public Person parm(){
+        Person person = new Person();
+        person.setName("11");
+        person.setAge(1);
+        return person;
+    }
 
 }

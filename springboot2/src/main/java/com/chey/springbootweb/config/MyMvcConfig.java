@@ -19,7 +19,7 @@ public class MyMvcConfig implements WebMvcConfigurer {//实现WebMvcConfigurer �
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
 //        WebMvcConfigurer.super.addViewControllers(registry);
-        registry.addViewController("/mypage").setViewName("hellooPage");
+        registry.addViewController("/mypage").setViewName("thymePage");
     }
 
     //开启矩阵值 法一  实现WebMvcConfigurer 重写configurePathMatch
