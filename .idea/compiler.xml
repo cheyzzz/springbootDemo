@@ -14,10 +14,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="8" />
-      <module name="springboot1" target="8" />
-      <module name="springboot2" target="8" />
+      <module name="springboot1" target="1.8" />
+      <module name="springboot2" target="1.8" />
       <module name="springbootDemo" target="1.8" />
-      <module name="WebProject" target="8" />
+      <module name="WebProject" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
